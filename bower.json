@@ -1,0 +1,53 @@
+{
+  "name": "playbook",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.1",
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "angular-animate": "^1.5.8",
+    "angular-ui-bootstrap": "^2.0.1",
+    "bootstrap": "^3.3.7",
+    "google-chart": "^1.1.0",
+    "angular-messages": "^1.5.8",
+    "angular-google-chart": "^0.1.0"
+  },
+  "overrides": {
+    "angular": {
+      "main": [
+        "angular.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/fonts/*",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "angular-ui-bootstrap": {
+      "main": [
+        "src/accordion/accordion.js",
+        "src/buttons/buttons.js"
+      ]
+    },
+    "google-chart": {
+      "main": [
+        "google-chart.css",
+        "google-chart.html",
+        "google-chart-loader.html",
+        "charts-loader.html"
+      ]
+    },
+    "angular-google-chart": {
+      "main": [
+        "ng-google-chart.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.1"
+  }
+}
